@@ -7,4 +7,4 @@ Steps to replicate our analysis:
 4. Run all the models 1 - 5 in StaticModels folder with different parameters. For verification of results, we have added project report and StochasticProgrammingFinal.pptx.
 5. Run Bender's decomposition algorithm in bender folder for 2 stage problem. Input files are also appended.
 6. Run all the models 8 - 10 in MultiStage folder. For verification of results, we have added project report and StochasticProgrammingFinal.pptx.
-7. Generate testing data from Data/quandl.py and obtain.
+7. Generate testing data from Data/quandl.py and check the performance of various trained models.
