@@ -46,6 +46,6 @@ while len(weightList) != sampleSize:
 bestWeights = weightList[np.argmin(lossList)]
 print bestWeights
 df = pd.DataFrame(bestWeights)
-df.to_csv("multiStageVarMinSoftOptimization.csv")
+df.to_csv("ControlledVaRSoftOptimization.csv")
 
 print expectedReturnList[np.argmin(lossList)]
